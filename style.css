@@ -12,8 +12,9 @@ body {
 /* Hero Section */
 #hero {
   position: relative;
-  height: 100vh;
+  height: 30rem; /* approx 480px if root font size is 16px */
   overflow: hidden;
+}
 }
 
 .slideshow-container {
