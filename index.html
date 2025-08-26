@@ -1,123 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SmartEstate Real Estate</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <script src="script.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <!-- Hero Section -->
-  <section id="hero">
-    <div class="slideshow-container">
-      <div class="slide fade" style="background-image: url('https://lostnewengland.com/wp-content/uploads/2017/11/1327_2017.jpg);"></div>
-      <div class="slide fade" style="background-image: url('https://res.cloudinary.com/iml/image/upload/w_1024,c_scale/c_crop,g_custom/v1723546558/widgetdocs/The_Hills_10-42_uiql3k.jpg');"></div>
-      <div class="slide fade" style="background-image: url('https://res.cloudinary.com/iml/image/upload/w_750,c_scale/c_crop,g_custom/w_1024,c_scale/v1723546598/widgetdocs/The_Hills_10-7_ocgsbp.jpg');"></div>
+  <header class="hero">
+    <div class="container">
+      <img src="your-photo.jpg" alt="Your Name" class="profile-pic" />
+      <h1>Hello, I'm Your Name</h1>
+      <p>Frontend Developer | HTML, CSS, JavaScript</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">Projects</a>
+        <a href="#certificates" class="btn">Certificates</a>
+      </div>
     </div>
-
-    <div class="hero-overlay">
-      <h1>Smarter Rentals.<br>Verified Agents.<br>Virtual Tours.</h1>
-      <a href="#listings" class="cta-button">View Listings</a>
+  </header>  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>This is a short intro about yourself. Passionate about building beautiful, functional web experiences.</p>
     </div>
-  </section>
-  
-  <!--How It Works -->
-  <section id="how-it-works">
-  <h2>How It Works</h2>
-  <div class="steps">
-    <div class="step">
-      <i class="fas fa-search"></i>
-      <h3>Search</h3>
-      <p>Find your ideal home</p>
-    </div>
-    <div class="step">
-      <i class="fas fa-calendar-alt"></i>
-      <h3>Schedule</h3>
-      <p>Book a viewing</p>
-    </div>
-    <div class="step">
-      <i class="fas fa-lock"></i>
-      <h3>Secure</h3>
-      <p>Rent your home</p>
-    </div>
-  </div>
-</section>
-
-<!--Featured Listings -->
-<section id="featured-listings">
-  <div class="container">
-    <h2>Featured Listings</h2>
-    <div class="listing-cards">
-      
-      <div class="card">
-        <img src="https://sometimes-homemade.com/wp-content/uploads/2016/02/exterior.png">
-        <div class="card-info">
-          <h3>Modern Family Home</h3>
-          <p class="price">₦950,000</p>
-          <p class="location">183 Main St, AnyTown</p>
-          <button>View Details</button>
+  </section>  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <!-- Example Project Card -->
+        <div class="project-card">
+          <h3>Project Title</h3>
+          <p>Short description of the project.</p>
+          <a href="#" class="btn">View Project</a>
         </div>
       </div>
-
-      <div class="card">
-        <img src="https://www.trulia.com/pictures/thumbs_4/zillowstatic/fp/41f4880d916e63ee6ad86f343141f286-full.webp">
-        <div class="card-info">
-          <h3>Cozy Suburban House</h3>
-          <p class="price">₦299,000</p>
-          <p class="location">258 Oak Dr, Suburbia</p>
-          <button>View Details</button>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="https://www.trulia.com/pictures/thumbs_4/zillowstatic/fp/f1de529ab0456ec86cb08f9695785d71-full.webp">
-        <div class="card-info">
-          <h3>Luxury Apartment</h3>
-          <p class="price">$1,260,000</p>
-          <p class="location">789 Elm St, Metropolis</p>
-          <button>View Details</button>
-        </div>
-      </div>
-
     </div>
-    <div class="view-more-wrapper">
-      <button class="view-more">View More</button>
+  </section>  <section id="certificates" class="section">
+    <div class="container">
+      <h2>Certificates</h2>
+      <ul class="cert-list">
+        <li><a href="#">Responsive Web Design - FreeCodeCamp</a></li>
+        <!-- Add more certificates -->
+      </ul>
     </div>
-  </div>
-</section>
-
-<!Why Choose Us -->
-<section id="why-choose-us">
-  <div class="container">
-    <h2>Why Choose SmartEstate?</h2>
-    <div class="features">
-      <div class="feature">
-        <i class="fas fa-check-circle"></i>
-        <h3>Verified Listings</h3>
-        <p>Every property is verified for authenticity and value.</p>
-      </div>
-      <div class="feature">
-        <i class="fas fa-bolt"></i>
-        <h3>Fast Booking</h3>
-        <p>Instant booking and secure transactions—no hassle, no wait.</p>
-      </div>
-      <div class="feature">
-        <i class="fas fa-brain"></i>
-        <h3>Smart Matching</h3>
-        <p>Our system matches you with homes that fit your lifestyle.</p>
-      </div>
-      <div class="feature">
-        <i class="fas fa-headset"></i>
-        <h3>24/7 Support</h3>
-        <p>Got questions? Our team is always available to help.</p>
-      </div>
+  </section>  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+      <p>Facebook: <a href="https://facebook.com/yourprofile" target="_blank">facebook.com/yourprofile</a></p>
+      <!-- Add more social media if needed -->
     </div>
-  </div>
-</section>
-
-  <script src="script.js"></script>
+  </section>  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
